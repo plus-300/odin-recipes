@@ -1,12 +1,31 @@
+/*
+* {
+    outline: 0.5px black dashed;
+}
+*/
+
+* img {
+    display: block;
+    margin: 0 auto;
+}
+
+.caixa {
+    width: 400px;
+    margin: 0 auto;
+    background: rgb(255, 214, 139);    
+}
+
 h1 {
     background-color: bisque;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .listas {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:cadetblue;
     font-size: 17px;
+    padding-bottom: 20px;
 }
 
 .centralizado {
@@ -16,4 +35,5 @@ h1 {
 .delicia {
     background-color: rgba(255, 165, 0, 0.5);
     font-weight: 700;
+    width: 158px;
 }
